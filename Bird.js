@@ -22,4 +22,12 @@ class Bird extends BaseClass {
       image(this.smokeImage, this.trajectory[i][0], this.trajectory[i][1]);
     }
   }
-}
+
+
+  score(){
+    if (this.Visiblity < 0 && this.Visiblity > -1005){
+      score++;
+    }
+  }
+
+};
